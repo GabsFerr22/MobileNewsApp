@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Meu Perfil</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="profile-content">
+  <!-- Imagem de Avatar ou Foto de Perfil -->
+  <div class="profile-header">
+    <ion-avatar>
+      <img src="https://www.w3schools.com/w3images/avatar2.png" alt="Foto de Perfil">
+    </ion-avatar>
+    <ion-title>{{ fullName }}</ion-title>
+  </div>
+
+  <!-- Informações do Usuário -->
+  <ion-card class="profile-card">
+    <ion-card-header>
+      <ion-card-title>Informações do Perfil</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item>
+        <ion-label>Email</ion-label>
+        <ion-text>{{ email }}</ion-text>
+      </ion-item>
+      <ion-item>
+        <ion-label>Nome Completo</ion-label>
+        <ion-text>{{ fullName }}</ion-text>
+      </ion-item>
+      <ion-item>
+        <ion-label>Criado em</ion-label>
+        <ion-text>{{ createdAt?.toDate() | date:'short' }}</ion-text>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Botão para Editar Perfil -->
+  <ion-button expand="full" color="primary" (click)="editProfile()">Editar Perfil</ion-button>
+</ion-content>
