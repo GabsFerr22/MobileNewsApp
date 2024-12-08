@@ -54,6 +54,12 @@ A estrutura do projeto é dividida em módulos, cada um responsável por uma par
 
 ## Como Rodar o Projeto
 
+### Contribuindo para o Projeto de Notícias Personalizadas
+
+Obrigado por querer contribuir com este projeto! Aqui estão algumas orientações para ajudar você a começar.
+Mande um pix para: bielgagg94@outlook.com :)
+
+
 ### Pré-requisitos
 
 - **Node.js** instalado.
@@ -89,11 +95,18 @@ npm install
 
 Rode com o codigo ionic serve no bash
 
+
 ### Consideração de desempenho 
 
 - O aplicativo foi projetado para garantir a alta performance em dispositivos móveis, utilizando o Ionic com Angular para uma navegação eficiente.
 - As notícias são carregadas de forma assíncrona da NewsAPI, com caching inteligente para evitar requisições repetidas e melhorar a experiência do usuário.
 - As notificações são enviadas via Firebase Cloud Messaging (FCM) e podem ser acionadas conforme eventos importantes, como novas notícias ou atualizações.
+
+
+### Licença
+Este projeto está licenciado sob a Creative Commons Attribution 4.0 International.
+
+<img src="https://img.freepik.com/fotos-gratis/conceito-de-certificacao-autorizado-e-aprovado-de-garantia_53876-122452.jpg?t=st=1733681012~exp=1733684612~hmac=5d38637f47e5f80e60d2d8121ae5b5746273a90438301c580930738c2b26cbb7&w=900" alt="Imagem Adicional" /> ```
 
 ### Conclusão
 

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "178501672865",
+    "project_id": "ionicnewsapp-fe31b",
+    "storage_bucket": "ionicnewsapp-fe31b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178501672865:android:1fc1a04120cd174da875e0",
+        "android_client_info": {
+          "package_name": "Mobile.News.App"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFwN483XepGmgaSMBjOIxA-eMfe2mMfDE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

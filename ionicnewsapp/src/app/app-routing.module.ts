@@ -3,7 +3,7 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: 'r',
+    path: 'register',
     loadChildren: () => import('./register/register.module').then(m => m.RegisterPageModule),
   },
   {
@@ -11,8 +11,13 @@ const routes: Routes = [
     loadChildren: () => import('./login/login.module').then(m => m.LoginPageModule),
   },
   {
-    path: '',
+    path: 'tabs',
     loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule),
+  },
+  {
+    path: '',
+    redirectTo: 'login', // Redireciona para a página de login por padrão
+    pathMatch: 'full',
   },
 ];
 
